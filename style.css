@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family:  "Edu VIC WA NT Beginner", cursive;
+}
+header{
+    background-color: rgb(22, 54, 22);
+    width: 100%;
+    height: 80px;
+    font-family: 'Courier New', Courier, monospace ;
+    color: white;
+    position:sticky;
+}
+#bookmart{
+    padding: 10px;
+}
+#edumart{
+    margin-left: 80px;
+    margin-top: -75px;
+}
+#pre{
+    margin-left: 80px;
+}
+header ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+header ul li{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+header ul li a:hover {
+    color: orange;
+  }
+#one{
+    background-image: url(https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 95%;
+    height: 500px;
+    border: solid 2px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-size: cover;
+    
+}
+#edu{
+    text-align: center;
+    color: white;
+    font-size:40px ;
+    padding: 200px;
+    color: white;
+    text-decoration: underline ;
+    
+}
+#new{
+    margin-top: 80px;
+    text-align: center;
+}
+.row{
+    margin-top: 20px;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: space-around;
+}
+.col{
+    width: 19%;
+    height: 380px;
+    border: solid 1px;
+    
+}
+
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+  h3{
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: underline;
+    color: blue;
+  }
+  h3:hover{
+    color: red;
+  }
+
+  .row1{
+    width: 100%;
+    height: 450px;
+    margin-top:80px ;
+    display: flex;
+    justify-content: space-around;
+  }
+  .col1{
+    width: 30%;
+    height: 440px;
+    padding-left: 50px;
+  }
+  footer ul li{
+    list-style: none;
+  }
+  #connection{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    }
+  footer i{
+    padding-left: 15px;
+  }
+  footer button{
+    color: red;
+    background-color: black;
+  }
+  #last{
+    display: flex;
+    justify-content: center;
+  }
+  #last li{
+    padding-left: 20px;
+
+  }
+#last li a{
+  text-decoration: none;
+}
